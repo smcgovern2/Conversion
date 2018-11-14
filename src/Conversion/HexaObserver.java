@@ -1,3 +1,10 @@
+package Conversion;
+
+/**
+ * Class to check hexadecimal value of a subject
+ * @author Sean McGovern
+ * @version 1.0
+ */
 public class HexaObserver extends Observer{
     public HexaObserver(Subject subject){
         this.subject = subject;

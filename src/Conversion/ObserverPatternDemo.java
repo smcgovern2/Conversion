@@ -1,4 +1,12 @@
+package Conversion;
+
+/**
+ * Runnable class of the conversion project
+ * @author Sean McGovern
+ * @version 1.0
+ */
 public class ObserverPatternDemo {
+
     public static void main(String[] args) {
         Subject subject = new Subject();
         new HexaObserver(subject);
